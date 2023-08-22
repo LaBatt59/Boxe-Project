@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <div class="navbar">
+        <a href="#accueil">Accueil</a>
+        <a href="#connexion">Connexion</a>
+        <a href="#apropos">A propos</a>
+        <a href="#deconnexion">Deconnexion</a>
+    </div> -->
+    <nav class="navbar">
+        <a href="#" class="logo">Fight for life</a>
+        <div class="nav-link">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">A propos</a></li>
+                <li class="Conec"><a href="#">Connexion</a></li>
+                <li class="Dec"><a href="#">Deconnexion</a></li>
+            </ul>
+        </div>
+        <img src="menu-btn.png" alt="Menu Hamburger" class="Humburger">
+    </nav>
+    <header></header>
+
+    
+
+
+</body>
+<script>
+    const menuHumburger = document.querySelector(".Humburger")
+    const navLinks = document.querySelector(".nav-link")
+
+    menuHumburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>
